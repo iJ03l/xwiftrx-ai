@@ -8,7 +8,7 @@
 
 Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landscape with confidence. Our AI safeguards you from scams, streamlines NEAR transactions, and simplifies token bridging—all within a convenient overlay. With Xwiftrx AI, you can effortlessly manage your Web3 activities without leaving your current app, ensuring a secure and efficient experience. Embrace the future of blockchain interactions with Xwiftrx AI!
 
-### Submitted for the Native Track Category
+### Submitted for the Native/Chain agnostic Track
 
 ## Technologies Used
 
