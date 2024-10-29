@@ -1,13 +1,11 @@
 <p align="center">
-  <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="./images/bannaer.png" alt="project banner"></a>
+  <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="./images/banner.png" alt="project banner"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="https://img.shields.io/badge/langs-Linux%20%7C%20YAML%20%7C%20BashScripting%20%7C%20...-red?style=flat-square&color=42b883" alt="languages"></a>
+  <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="https://img.shields.io/badge/langs-Py-NEAR%20%7C%20OLLAMAL%20%7C%20KOTLIN%20%7C%20...-red?style=flat-square&color=42b883" alt="languages"></a>
   <a href="https://altschoolafrica.com/#/?id=how-to-join"><img src="https://img.shields.io/badge/organization-join%20us-42b883?style=flat-square" alt="Educational-Program"></a>
   <a href="https://github.com/iJ03l/Altschool-Cloud-Playbook/blob/main/LICENSE"><img src="https://img.shields.io/github/license/iJ03l/Altschool-Cloud-Playbook?color=42b883&style=flat-square" alt="LICENSE"></a><br>
-  <a href="https://github.com/iJ03l/Altschool-Cloud-Playbook/stargazers"><img src="https://img.shields.io/github/stars/iJ03l/Altschool-Cloud-Playbook?color=42b883&logo=github&style=flat-square" alt="stars"></a>
-  <a href="https://github.com/iJ03l/Altschool-Cloud-Playbook/network/members"><img src="https://img.shields.io/github/forks/iJ03l/Altschool-Cloud-Playbook?color=42b883&logo=github&style=flat-square" alt="forks"></a>
   </p>
 
 ## Introduction
@@ -16,18 +14,17 @@ Documetations of Altschool Cloud track problems, updated daily. Please give me a
 
 ## Sites
 
--   Parent: https://altschoolafrica.com
-
+- Parent: https://altschoolafrica.com
 
 ## Topics ~So far~
 
--   Introduction To Linux Operating System
--   Linux Deep Dive
--   Version Control (Git)
--   SystemD
--   Bash Scripting
--   Configuration Management – Ansible
--   How the Internet Works
+- Introduction To Linux Operating System
+- Linux Deep Dive
+- Version Control (Git)
+- SystemD
+- Bash Scripting
+- Configuration Management – Ansible
+- How the Internet Works
 
 ## Contributions
 
@@ -39,7 +36,6 @@ I'm looking for contributors/partners that understands a particular topic to the
 1. Make some changes to your repository, then push the changes to your remote GitHub repository.
 1. Create a pull request with your changes!
 1. See [CONTRIBUTING](https://github.com/iJ03l/Altschool-Cloud-Playbook/blob/master/CONTRIBUTING.md) or [GitHub Help](https://help.github.com/en) for more details.
-
 
 You can also contribute to [iJ03l/Altschool-Cloud-Playbook](https://github.com/iJ03l/Altschool-Cloud-Playbook) using [Gitpod.io](https://www.gitpod.io), a free online dev environment with a single click.
 
