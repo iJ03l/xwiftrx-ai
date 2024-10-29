@@ -1,38 +1,54 @@
 <p align="center">
-  <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="./images/banner.png" alt="project banner"></a>
+  <a href="https://github.com/iJ03l/xwiftrx-ai">
+    <img src="./images/banner.png" alt="Project Banner">
+  </a>
 </p>
 
 ## XWIFTRX AI for [REDACTED] Hackathon
 
-Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landscape with confidence. Our AI safeguards you from scams, streamlines NEAR transactions, and simplifies token bridging—all within a convenient overlay. With Xwiftrx AI, you can effortlessly manage your Web3 activities without leaving your current app, ensuring a secure and efficient experience. Embrace the future of blockchain interactions with Xwiftrx AI! 🌟
+Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landscape with confidence. Our AI safeguards you from scams, streamlines NEAR transactions, and simplifies token bridging—all within a convenient overlay. With Xwiftrx AI, you can effortlessly manage your Web3 activities without leaving your current app, ensuring a secure and efficient experience. Embrace the future of blockchain interactions with Xwiftrx AI!
 
-# submitted for the native track category
+### Submitted for the Native Track Category
 
-## Technologies Used~
+## Technologies Used
 
-- Near Protool
-- Py-Near
-- Huggingface
-- Kotlin
-- Ollama
-- Google colab
+- **NEAR Protocol**
+- **Py-NEAR**
+- **Hugging Face**
+- **Kotlin**
+- **Ollama**
+- **Google Colab**
 
-## How we Built it
+## How We Built It
 
-- The app was built with kotlin as we needed native feature
-- collated datas and created a dataset that was deployed on [HuggingFace-repo](https://huggingface.co/datasets/yorxsm/neart-dataset)[2](https://huggingface.co/datasets/yorxsm/neartrx-dataset)
-- Picked a LLM with prompt function capabilities and trained it with the dataset on colab and deployed it [here](https://huggingface.co/yorxsm/xw_model)
-- Used ollama to run the model, _lack of compute power_
-- wrote a python script to interface the trained model with the frontend, using py-near to handle transactions
-- Deployed on a cloud platform to test app functionalities with the ai. _too much cost- was taken down after test_
+- **App Development:** Built with Kotlin for native feature support.
+- **Dataset Creation:** Collated data and created datasets deployed on [Hugging Face repo](https://huggingface.co/datasets/yorxsm/neart-dataset) and [second dataset](https://huggingface.co/datasets/yorxsm/neartrx-dataset).
+- **Model Training:** Picked a LLM with prompt function capabilities, trained it with the dataset on Colab, and deployed it [here](https://huggingface.co/yorxsm/xw_model).
+- **Model Execution:** Used Ollama to run the model (lacked sufficient compute power).
+- **Python Integration:** Wrote a Python script to interface the trained model with the frontend using Py-NEAR to handle transactions.
+- **Deployment:** Initially deployed on a cloud platform to test app functionalities with AI (removed due to high costs).
 
-## Recreate function with CLI
+## Recreate Function with CLI
 
-- Download the [model](https://huggingface.co/yorxsm/xw_model), create a modelfile, serve with ollama, add testnet details to env, launch python app.py and python test_cli.py
-- works perfect prompt like: What is near?, send 2 near to a testnet address, is this link safe.
+- Download the [model](https://huggingface.co/yorxsm/xw_model).
+- Create a modelfile.
+- Serve with Ollama.
+- Add testnet details to the environment.
+- Launch with `python app.py` and `python test_cli.py`.
+- Prompts like: "What is NEAR?", "Send 2 NEAR to a testnet address", "Is this link safe?" will work perfectly.
 
-## Challenges faced
+### Example Images
+
+![Example Image 1](./images/images/3png)
+![Example Image 2](./images/b.png)
+![Example Image 3](./images/4.jpeg)
+
+## Challenges Faced
+
+- Learning new technologies within a limited timeframe.
+- Resources needed for model training.
+- Difficulty obtaining APIs for token bridging and MPC integration.
 
 ## License
 
-This work is licensed under a <a rel="license" href="https://mit-license.org/">MIT License</a>.
+This work is licensed under a [MIT License](https://mit-license.org/).
