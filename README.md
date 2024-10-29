@@ -2,55 +2,36 @@
   <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="./images/banner.png" alt="project banner"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/iJ03l/xwiftrx-ai"><img src="https://img.shields.io/badge/langs-Py-NEAR%20%7C%20OLLAMAL%20%7C%20KOTLIN%20%7C%20...-red?style=flat-square&color=42b883" alt="languages"></a>
-  <a href="https://altschoolafrica.com/#/?id=how-to-join"><img src="https://img.shields.io/badge/organization-join%20us-42b883?style=flat-square" alt="Educational-Program"></a>
-  <a href="https://github.com/iJ03l/Altschool-Cloud-Playbook/blob/main/LICENSE"><img src="https://img.shields.io/github/license/iJ03l/Altschool-Cloud-Playbook?color=42b883&style=flat-square" alt="LICENSE"></a><br>
-  </p>
+## XWIFTRX AI for [REDACTED] Hackathon
 
-## Introduction
+Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landscape with confidence. Our AI safeguards you from scams, streamlines NEAR transactions, and simplifies token bridging—all within a convenient overlay. With Xwiftrx AI, you can effortlessly manage your Web3 activities without leaving your current app, ensuring a secure and efficient experience. Embrace the future of blockchain interactions with Xwiftrx AI! 🌟
 
-Documetations of Altschool Cloud track problems, updated daily. Please give me a [star](https://github.com/iJ03l/Altschool-Cloud-Playbook) 🌟 if you like it.
+# submitted for the native track category
 
-## Sites
+## Technologies Used~
 
-- Parent: https://altschoolafrica.com
+- Near Protool
+- Py-Near
+- Huggingface
+- Kotlin
+- Ollama
+- Google colab
 
-## Topics ~So far~
+## How we Built it
 
-- Introduction To Linux Operating System
-- Linux Deep Dive
-- Version Control (Git)
-- SystemD
-- Bash Scripting
-- Configuration Management – Ansible
-- How the Internet Works
+- The app was built with kotlin as we needed native feature
+- collated datas and created a dataset that was deployed on [HuggingFace-repo](https://huggingface.co/datasets/yorxsm/neart-dataset)[2](https://huggingface.co/datasets/yorxsm/neartrx-dataset)
+- Picked a LLM with prompt function capabilities and trained it with the dataset on colab and deployed it [here](https://huggingface.co/yorxsm/xw_model)
+- Used ollama to run the model, _lack of compute power_
+- wrote a python script to interface the trained model with the frontend, using py-near to handle transactions
+- Deployed on a cloud platform to test app functionalities with the ai. _too much cost- was taken down after test_
 
-## Contributions
+## Recreate function with CLI
 
-I'm looking for contributors/partners that understands a particular topic to the core to this repo! Send me [PRs](https://github.com/iJ03l/Altschool-Cloud-Playbook/pulls) if you're interested! See the following:
+- Download the [model](https://huggingface.co/yorxsm/xw_model), create a modelfile, serve with ollama, add testnet details to env, launch python app.py and python test_cli.py
+- works perfect prompt like: What is near?, send 2 near to a testnet address, is this link safe.
 
-1. Fork [this repository](https://github.com/iJ03l/Altschool-Cloud-Playbook) to your own GitHub account and then clone it to your local machine.
-1. Checkout a new branch.
-1. Create a dedicated Folder.
-1. Make some changes to your repository, then push the changes to your remote GitHub repository.
-1. Create a pull request with your changes!
-1. See [CONTRIBUTING](https://github.com/iJ03l/Altschool-Cloud-Playbook/blob/master/CONTRIBUTING.md) or [GitHub Help](https://help.github.com/en) for more details.
-
-You can also contribute to [iJ03l/Altschool-Cloud-Playbook](https://github.com/iJ03l/Altschool-Cloud-Playbook) using [Gitpod.io](https://www.gitpod.io), a free online dev environment with a single click.
-
-<a href="https://gitpod.io/#https://github.com/iJ03l/Altschool-Cloud-Playbook" target="_blank" alt="Open in Gitpod"><img src="https://gitpod.io/button/open-in-gitpod.svg"></a>
-
-<!-- ## Stargazers over time
-
-
-<a href="https://github.com/iJ03l" target="_blank"><img src="./images/starcharts.svg" alt="Stargazers over time" /></a> -->
-
-## Our Top Contributors
-
-This project exists thanks to all the people who contribute.
-
-<a href="https://github.com/doocs/iJ03l/Altschool-Cloud-Playbook" target="_blank"><img src="https://contrib.rocks/image?repo=iJ03l/Altschool-Cloud-Playbook&max=500" /></a>
+## Challenges faced
 
 ## License
 
