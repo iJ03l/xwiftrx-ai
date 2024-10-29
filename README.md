@@ -37,17 +37,17 @@ Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landsca
 - Launch with `python app.py` and `python test_cli.py`.
 - Prompts like: "What is NEAR?", "Send 2 NEAR to a testnet address", "Is this link safe?" will work perfectly.
 
-### Example Images
-
-![Example Image 1](./images/images/3png)
-![Example Image 2](./images/b.png)
-![Example Image 3](./images/4.jpeg)
-
 ## Challenges Faced
 
 - Learning new technologies within a limited timeframe.
 - Resources needed for model training.
 - Difficulty obtaining APIs for token bridging and MPC integration.
+
+### Example Images
+
+![Example Image 1](./images/images/3.png)
+![Example Image 2](./images/b.png)
+![Example Image 3](./images/4.jpeg)
 
 ## License
 
