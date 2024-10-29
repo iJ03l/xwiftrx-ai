@@ -45,7 +45,7 @@ Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landsca
 
 ### Example Images
 
-![Example Image 1](./images/images/3.png)
+![Example Image 1](./images/3.png)
 ![Example Image 2](./images/b.png)
 ![Example Image 3](./images/4.jpeg)
 
