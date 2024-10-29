@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Xwiftrx AI</string>
+    <string name="enter_message">Enter message</string>
+    <string name="send">Send</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="send_buttn">Send</string>
+    <string name="type_a_message1">Type a message</string>
+    <string name="response_will_appear_here">Response will appear here...</string>
+    <string name="enter_your_prompt">Enter your prompt</string>
+    <string name="send12">Send</string>
+    <string name="close_overlay" />
+    <string name="open_overlay" />
+    <string name="typing">Typing...</string>
+    <string name="send_button">sendd</string>
+</resources>

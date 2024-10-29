@@ -1,0 +1,4 @@
+Flask
+py-near
+langchain-community 
+python-dotenv # Add this line
