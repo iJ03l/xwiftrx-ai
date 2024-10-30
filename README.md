@@ -31,7 +31,7 @@ Introducing Xwiftrx AI, your all-in-one solution for navigating the Web3 landsca
 ## Recreate Function with CLI
 
 - Download the [model](https://huggingface.co/yorxsm/xw_model).
-- Create a modelfile.
+- Create a modelfile and name the ollama model `Xwiftrx` 
 - Serve with Ollama.
 - Add testnet details to the environment.
 - Launch with `python app.py` and `python test_cli.py`.
